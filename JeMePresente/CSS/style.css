@@ -1,0 +1,7 @@
+body
+{
+    width: 900px; /*Largeur du site*/
+    width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+    margin: auto; /* pour centrer le site en largeur */
+}
+img
