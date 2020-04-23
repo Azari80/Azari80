@@ -1,14 +1,7 @@
 body
 {
     width: 900px;
-    background: url("../Medias/komlan.jpg") no-repeat center;
-    background-color: blue;
+    background: url("../Medias/") no-repeat center;
 }
 
 
-h1, h2 {
-   
-}
-h1{
-    font-size:36px;
-}
