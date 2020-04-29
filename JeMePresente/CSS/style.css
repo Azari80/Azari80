@@ -34,7 +34,7 @@ img {
     border-radius: 50px;
 }
 img:hover {
-    box-shadow:10px 10px 5px 1px black;
+    box-shadow:30px 20px 5px 1px lightblue;
 }
 table, th, td {
     border: 5px solid black;
