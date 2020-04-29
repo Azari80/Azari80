@@ -1,9 +1,8 @@
 body
 {
     width: 900px;
-    background-image: url("./Medias/KomlanPlage.jpg.") no-repeat center;
+    background-image: url("../Medias/KomlanPlage.jpg");
     margin: auto;
-
 }
 
 
