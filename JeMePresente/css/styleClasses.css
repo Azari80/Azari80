@@ -13,14 +13,17 @@ Style.css
 #changementCouleur2{
     background-color: aqua;
 }
+.body{
+
 
 /**background-image: url("../Medias/Komlan_Quebec.png");**/
 /**background-repeat: no-repeat;**/
-/**background-color: beige;
+/**background-color: beige;**/
 width: 900px;
 margin:auto;
 }
-**/
+
+ */
 h1{
     font-size: 36px;
 }
