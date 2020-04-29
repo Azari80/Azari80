@@ -1,6 +1,7 @@
 body
 {
     width: 900px;
+    background: url("../img/Beach.jpg") no-repeat center;
     margin: auto;
     background-color: beige;
 }
