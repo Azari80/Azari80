@@ -1,9 +1,7 @@
 body
 {
     width: 900px;
-    background-image: url("../Medias/Komlan_Quebec.png");
-
-
+    background-image: url("../Medias/Komlan_Quebec.png") no-repeat center;
     margin: auto;
     background-color: beige;
 }
