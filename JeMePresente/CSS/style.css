@@ -1,6 +1,11 @@
 body
 {
-    background: url("../medias/komlan5.JPG");
+    width: 900px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../Medias/diplome.jpg");
+    background-color: bisque;
 
 }
 
