@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: maPolice;
+    src: url("../font/maPolice.otf");
+}
+body
+{
+    background-image: url("../Medias/Komlan_Quebec.png");
+    background-repeat: no-repeat;
+    background-color: beige;
+    width: 900px;
+    margin:auto;
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 24px;
+}
+h1, h2{
+    color: red;
+    text-align: center;
+}
+p {
+    font-size: 4rem;
+    text-align: justify;
+    font-family: maPolice;
+}
+a {
+    color: #87CEFA;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+img:hover {
+    box-shadow:30px 20px 5px 1px lightblue;
+}
+table, th, td {
+    border: 2px solid blue;
+}
+th {
+    color: black;
+    font-size: large;
+}
+td {
+    color: lightcoral;
+    font-size: medium;
+}
+
+

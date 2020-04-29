@@ -1,14 +1,26 @@
-body
-{
-
-    background-image: url("../Medias/Komlan_Quebec.png");
-    background-repeat: no-repeat;
-    background-color: beige;
-    width: 900px;
-    margin:auto;
-
+/**
+Komlan Albert Gblokpor-Koffi
+Style.css
+**/
+@font-face {
+    font-family: maPolice;
+    src: url("../font/maPolice.otf");
 }
 
+#changementCouleur1{
+    background-color: #80bdff;
+}
+#changementCouleur2{
+    background-color: aqua;
+}
+
+/**background-image: url("../Medias/Komlan_Quebec.png");**/
+/**background-repeat: no-repeat;**/
+/**background-color: beige;
+width: 900px;
+margin:auto;
+}
+**/
 h1{
     font-size: 36px;
 }
@@ -20,8 +32,9 @@ h1, h2{
     text-align: center;
 }
 p {
-    font-size: 14px;
+    font-size: 4rem;
     text-align: justify;
+    font-family: maPolice;
 }
 a {
     color: #87CEFA;
@@ -51,5 +64,4 @@ td {
     color: lightcoral;
     font-size: medium;
 }
-
 
