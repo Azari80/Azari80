@@ -1,9 +1,12 @@
 body
 {
-    width: 900px;
 
-    margin: auto;
+    background-image: url("../Medias/Komlan_Quebec.png");
+    background-repeat: no-repeat;
     background-color: beige;
+    width: 900px;
+    margin:auto;
+
 }
 
 h1{
@@ -47,5 +50,6 @@ th {
 td {
     color: lightcoral;
     font-size: medium;
+}
 
 
