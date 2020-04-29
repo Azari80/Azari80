@@ -1,7 +1,7 @@
 body
 {
     width: 900px;
-    background: url("../img/Beach.jpg") no-repeat center;
+    background-image: url("../medias/komlan.jpg");
     margin: auto;
     background-color: beige;
 }
