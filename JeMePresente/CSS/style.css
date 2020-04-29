@@ -24,7 +24,7 @@ a {
     color: #87CEFA;
 }
 a:visited {
-    color: red;
+    color: blue;
 }
 a:hover {
     text-decoration: underline;
