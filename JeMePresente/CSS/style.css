@@ -37,14 +37,14 @@ img:hover {
     box-shadow:30px 20px 5px 1px lightblue;
 }
 table, th, td {
-    border: 5px solid black;
+    border: 2px solid blue;
 }
 th {
-    color: blueviolet;
+    color: black;
     font-size: large;
 }
 td {
-    color: mediumslateblue;
+    color: lightcoral;
     font-size: medium;
 
 
