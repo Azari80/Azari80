@@ -1,12 +1,9 @@
 body
 {
     width: 900px;
+    background: url("../Medias/comique_info.jpg.jpg") no-repeat center;
     margin: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../Medias/diplome.jpg");
     background-color: bisque;
-
 }
 
 
