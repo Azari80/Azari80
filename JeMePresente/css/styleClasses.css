@@ -4,7 +4,10 @@ Style.css
 **/
 @font-face {
     font-family: maPolice;
+    font-family: PokemonSolid;
     src: url("../font/maPolice.otf");
+    src: url("../font/PokemonSolid.ttf");
+    src: url("../font/PokemonHollow.ttf");
 }
 
 #changementCouleur1{
@@ -13,6 +16,37 @@ Style.css
 #changementCouleur2{
     background-color: aqua;
 }
+#changementCouleur3{
+    background: lightcoral;
+}
+#changementCouleur4{
+    background-color: chartreuse;
+}
+#changementCouleur5{
+    background-color: gray;
+}
+
+.belleImage{
+    a. border: 1px solid #ddd;
+    b. border-radius: 4px;
+}
+
+
+belleImage:hover {
+box-shadow: 0 0 2 px 1 px rgba(0, 140, 186, 0.5);
+}
+
+.albert{
+    font-size: 4rem;
+    text-align: justify;
+    font-family: PokemonSolid ;
+}
+
+
+.h2{
+    font-family: 'Font Name', serif;
+}
+
 .body{
 
 
