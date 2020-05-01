@@ -11,6 +11,8 @@ body{
     background-color: black;
     width: 1000px;
     margin:auto;
+
+
 }
 
 
@@ -44,7 +46,7 @@ p{
 }
 
 img{
-    display: block;
+    display: flow;
     margin: auto;
 }
 .films{
