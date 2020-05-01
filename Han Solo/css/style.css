@@ -1,0 +1,60 @@
+/* style*/
+/* Par Komlan Albert Gblokpor-Koffi*/
+/*Le 2020-04-30 */
+@font-face {
+    font-family: maPolice;
+    src: url("../font/Starjedi.ttf");
+}
+body{
+    background-image: url("../img/etoileMort.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 1000px;
+    margin:auto;
+}
+
+
+h1{
+    font-family: maPolice;
+    font-size: 140px;
+    color: #FFFF00;
+    text-align: center;
+    margin: auto;
+}
+h2, h3, h4{
+    font-size: 140px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 72px;
+}
+h3{
+    font-size: 60px;
+}
+h4{
+    font-size: 44px;
+    text-underline: white;
+}
+p{
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+.films{
+    color: #FFFF00;
+    text-align: center;
+}
+
+a:visited {
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
