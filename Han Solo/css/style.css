@@ -46,7 +46,7 @@ p{
 }
 
 img{
-    display: flow;
+    display: block;
     margin: auto;
 }
 .films{
