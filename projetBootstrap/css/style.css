@@ -1,0 +1,55 @@
+
+#premierContainer{
+
+}
+
+#deuxiemeContainer{
+
+}
+#premierImage{
+    background-image: url("../img/villeQuebec2.JPG" );
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1200px;
+
+}
+#troisiemeContainer{
+
+}
+#quatriemeContainer{
+
+}
+#cinquiemeContainer{
+
+}
+
+
+
+
+.fondRouge{
+    background-color: red;
+    height: 100px;
+}
+.fondBleu{
+    background-color: blue;
+    height: 100px;
+
+}
+.fondVert{
+    background-color: #87ff5d;
+    height: 100px;
+}
+.fondJaune{
+    background-color: yellow;
+    height: 100px;
+
+}
+.fondBlanc{
+    background-color: white;
+    height: 100px;
+
+}
+.fondNoir{
+    background-color: black;
+    height: 100px;
+
