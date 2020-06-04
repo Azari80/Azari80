@@ -1,0 +1,51 @@
+hr{
+    margin-bottom:30px;
+    margin-top:30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: grey;
+}
+i{
+    color: #f05f40;
+}
+img{
+    width: 100%;
+}
+.buttonTrouveSurInternet {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+#banniere{
+    padding: 9rem;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#partie2{
+    background-color: #f57a17;
+    padding: 4rem;
+}
+#separation2{
+    border-color: white;
+}
+#atYourService{
+    padding-top: 2rem;
+}

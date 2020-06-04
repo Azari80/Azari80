@@ -3,15 +3,6 @@
     src: url("../font/jagwi.ttf");
 }
 #premierContainer{
-
-    background-image: url("../img/photo_grotte.jpg" );
-    background-repeat: no-repeat;
-    width: 100%;
-    margin:auto;
-    padding-top: 15rem;
-    padding-bottom: 15rem;
-}
-#premierImage{
     background-image: url("../img/photo_grotte.jpg" );
     background-repeat: no-repeat;
     width: 100%;
@@ -22,9 +13,6 @@
 
 
 
-#deuxiemeContainer{
-
-}
 
 
 hr{
@@ -54,13 +42,7 @@ h3 {
     text-align: center;
     margin-bottom: 3rem;
 }
-troisiemeContainer{
-    width: 100%;
-    margin:auto;
-    padding-top: 15rem;
-    padding-bottom: 15rem;
 
-}
 
 btn{
     text-align: center;
