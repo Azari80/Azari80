@@ -3,9 +3,92 @@
 /*Le 2020-06-03 */
 
 body {
-    /*background-color: #0b0b0b;*/
+   background-color: #0b0b0b;
 }
 
+@font-face {
+    font-family: maPolice;
+    src: url("../font/Thewitcher-jnOj.ttf");
+
+}
+#jeux{
+    font-family: maPolice;
+    color:#6c6c6c;
+    font-weight:bold;
+}
+#Livre{
+    font-family: maPolice;
+    color:#6c6c6c;
+    font-weight:bold;
+}
+#Communauté{
+    font-family: maPolice;
+    color:#6c6c6c;
+    font-weight:bold;
+}
+#Boutique{
+    font-family: maPolice;
+    color:#6c6c6c;
+    font-weight:bold;
+}
+#E-Sport{
+    font-family: maPolice;
+    color:#6c6c6c;
+    font-weight:bold;
+}
+
+#banniere {
+    padding: 27rem;
+    background-image: url("../img/witcherBanniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#NousJoindre{
+    font-family: maPolice;
+    color:white;
+    font-weight:bold;
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+#piedPage{
+    font-size: 1rem;
+    /* reduire la taille de l'image*/
+}
+iconeEssai{
+    font-size: 2rem;
+    color: white;
+}
+#Tweeter{
+    font-size: 2rem;
+    color: white;
+}
+#facebook{
+    font-size: 2rem;
+    color: white;
+}
+#Instagram{
+    font-size: 2rem;
+    color: white;
+}
+#Youtube{
+    font-size: 2rem;
+    color: white;
+}
+
+td{
+    width: 5rem;
+}
+
+h1, h2 {
+font-family: maPolice;
+    color: white;
+}
+ p{
+     text-align: left;
+     font-family: maPolice;
+ }
 hr{
     background: #353434;
     height: 1px;
@@ -14,22 +97,33 @@ hr{
 }
 
 
+img{
+    width: 100%;
+}
+
 
 .fondRouge{
     background-color: red;
+    height: 100px;
 }
 .fondBleu{
-    background-color: blue;
+    background-color: #9fcdff;
+    height: 100px;
 }
 .fondvert {
     background-color: green;
+    height: 100px;
 }
 .fondJaune{
     background-color: yellow;
+    height: 100px;
 }
 .fondBlanc{
     background-color: white;
+    height: 100px;
 }
 .fondNoir{
     background-color: black;
+    height: 100px;
+    height: 100px;
 }

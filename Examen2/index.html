@@ -12,81 +12,101 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- VOTRE CSS ICI APRES -->
 </head>
-
-
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6 col-lg-2 fondvert" >première section </div>
-        <div class="col-md-6 col-lg-2 fondvert" >première section </div>
-        <div class="col-md-6 col-lg-2 fondvert" >première section </div>
-        <div class="col-md-6 col-lg-2 fondvert" >première section </div>
-        <div class="col-md-6 col-lg-2 fondvert" >première section </div>
-        <div class="col-md-6 col-lg-2 fondvert" >première section </div>
+<!-- Ici commence le premier container -entête du site- -->
+                                    <!-- se rappeler pour introduire le col.md - -->
+
+<img rc="../img/logo.png" class="img-fluid">
+
+<div class="container-fluid text-center">
+    <div class="row no-gutters">
+        <!-- Ajout d'un padding top de 3 au colonnes du menu sans utiliser directement  du css- -->
+        <div class=" col-12  col-lg-2 col-xl-2 p-5" ><img src="img/logo.png"class="img-fluid"class="img-fluid"/></div>
+        <div class=" col-12  col-lg-2 col-xl-2 p-5" id="jeux">Jeux </div>
+        <div class=" col-12  col-lg-2 col-xl-2 p-5" id="Livre">Livres </div>
+        <div class=" col-12  col-lg-2 col-xl-2 p-5" id="E-Sport">E-Sport</div>
+        <div class=" col-12  col-lg-2 col-xl-2 p-5" id="Communauté">Communauté</div>
+        <div class=" col-12  col-lg-2 col-xl-2 p-5 " id="Boutique">Boutique </div>
     </div>
 </div>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-12 fondBleu" > Deuxième section Bannière  avec image </div>
+<!-- Ici commence le deuxiènme container - Bannière du site- -->
+<div class="container-fluid text-center align-items-center" id="banniere" >
+    <div class="row" >
+        <div class="col-12 md-12 col-lg-12  ">
+            <div class="text-center"><h1>The Witcher 3</h1></div>
+            <br>
+            <div class="text-center"><h2>The Wild Hunt</h2></div>
 
+        </div>
     </div>
 </div>
 
+<!-- Ici commence le troisième container - présentation des jeux- -->
 <div class="container">
     <div class="row">
-        <div class="col-lg-3 offset-col-lg-9 fondJaune"> Troisième section  </div>
+        <div class=" col-12 col-md-3  col-lg-3 col-xl-3 fondJaune"> roisième section 3x avec un vide à droite </div>
     </div>
     <hr>
+    <!-- code àa revoir surtout au niveau de lg. - -->
+
     <div class="row">
-        <div class="col-lg-4 fondJaune" >Troisième section </div>
-        <div class="col-lg-4 fondRouge" >Troisième section</div>
-        <div class="col-lg-4 fondJaune" >Troisième section </div>
+        <div class=" col-12 col-md-6  col-lg-4 col-xl-4 fondJaune">Troisième section 4x</div>
+        <div class=" col-12 col-md-6 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 fondRouge">Troisième section 4x</div>
+        <div class=" col-12 col-md-4 offset-md-4 col-lg-4 col-xl-4 fondJaune">QQTroisième section 4x</div>
     </div>
 </div>
+<!-- Ici commence le quatrieme container - présentation des livres - -->
+<!-- Revérifié si les livres sont bien placés- -->
 
 <div class="container ">
     <div class="row">
-        <div class="col-lg-3 fondRouge" > Quatrieme section</div>
-        <div class="col-lg-3 fondBleu" > Quatrieme section</div>
-        <div class="col-lg-3 fondRouge" fondRouge> Quatrieme section</div>
-        <div class="col-lg-3 fondBleu" > Quatrieme section</div>
-    </div>
-    <div class="row">
-        <div class="col-lg-3 fondBleu" > Quatrieme section</div>
-        <div class="col-lg-3 fondvert" > Quatrieme section</div>
-        <div class="col-lg-3 fondBleu" > Quatrieme section</div>
-        <div class="col-lg-3 fondvert" > Quatrieme section</div>
-    </div>
 
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-2 offset-xl-5 fondJaune">Cinquième partie </div>
-    </div>
-        <hr>
-    <div class="row">
-        <div class="col-lg-4 fondJaune">Cinquième partie </div>
-        <div class="col-lg-1 fondJaune">Cinquième partie </div>
-        <div class="col-lg-1 fondJaune">Cinquième partie </div>
-        <div class="col-lg-1 fondJaune">Cinquième partie </div>
-        <div class="col-lg-1 fondJaune">Cinquième partie </div>
-        <div class="offset-lg-5 fondJaune">Cinquième partie </div>
-
-
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3"><img src="img/witcherLivre1.jpg"/></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre2.jpg"/></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre3.jpg"/></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre4.jpg"/></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre5.jpg"/></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre6.jpg"/></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre7.jpg"/></div>
+        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre8.jpg"/></div>
     </div>
 
 </div>
+<!-- Ici commence le cinquième container - pied de page - -->
 
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-2 offset-5 col-sm-2 offset-sm-5 col-md-2 offset-md-5 col-lg-2 offset-lg-5 col-xl-2 offset-xl-5" id="NousJoindre">
+            <table align="center">
+                <tr>
+                    <td>
+                        NOUS JOINDRE
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        <hr>,
+    <div class="row no-gutters">
+        <div class="col-4 col-md-4 col-lg-4 ">
+            <img src="img/piedPage.png"id="piedPage"/>
+        </div>
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+            <i class="fab fa-twitter-square" id="Tweeter"></i>
+        </div>
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+            <i class="fab fa-facebook-square" id="facebook"></i>
+        </div>
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+            <i class="fab fa-instagram" id="Instagram"></i>
+        </div>
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+            <i class="fab fa-youtube-square" id="Youtube"></i>
+        </div>
 
+    </div>
 
-
-
-
-
-
-
-
+</div>
 
 
 <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
