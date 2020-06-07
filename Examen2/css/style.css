@@ -37,7 +37,7 @@ body {
     color:#6c6c6c;
     font-weight:bold;
 }
-#fontColorjeux{
+#JeuxColorSize{
     color:#6c6c6c;
     padding-left: 9rem;
 }
@@ -62,7 +62,7 @@ body {
     text-align: center;
 }
 
-
+/*
 #witcher1{
     padding-right:3rem;
     padding-left:3rem;
@@ -115,7 +115,7 @@ body {
     padding-right:2em;
     padding-left:2rem;
 }
-
+*/
 #NousJoindre{
     font-family: maPolice;
     color:white;
