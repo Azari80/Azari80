@@ -55,6 +55,7 @@ body {
 .centrerTitre{
     margin: 0 auto;
     width:18.75rem;
+    text-align: center;
 }
 #witcher1{
     padding-right:3rem;
@@ -70,11 +71,45 @@ body {
     padding-right:3em;
     padding-left:3rem;
     /* margin-top:2rem;*/
+}
+#witcherLivre1{
+    padding-right:3em;
+    padding-left:3rem;
 
 }
-#separationJeux{
+#witcherLivre2{
+    padding-right:3em;
+    padding-left:3rem;
 
 }
+#witcherLivre3{
+    padding-right:3em;
+    padding-left:3rem;
+
+}
+#witcherLivre4{
+    padding-right:3em;
+    padding-left:3rem;
+
+}
+#witcherLivre5{
+    padding-right:3em;
+    padding-left:3rem;
+
+}
+#witcherLivre6{
+    padding-right:3em;
+    padding-left:3rem;
+}
+#witcherLivre7{
+    padding-right:3em;
+    padding-left:3rem;
+}
+#witcherLivre8{
+    padding-right:3em;
+    padding-left:3rem;
+}
+
 
 #NousJoindre{
     font-family: maPolice;
