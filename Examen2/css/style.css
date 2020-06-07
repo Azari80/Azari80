@@ -43,6 +43,9 @@ body {
 #fontColorLivres{
     color:#6c6c6c;
 }
+#logo{
+    width: auto;
+}
 #banniere {
     padding: 27rem;
     background-image: url("../img/witcherBanniere.jpg");
@@ -75,8 +78,6 @@ body {
     padding-right:3rem;
     padding-left: 3rem;
     margin-top:3rem;
-
-
 }
 
 
