@@ -31,6 +31,7 @@ body {
     color:#6c6c6c;
     font-weight:bold;
 }
+
 #E-Sport{
     font-family: maPolice;
     color:#6c6c6c;
@@ -42,8 +43,12 @@ body {
     background-image: url("../img/witcherBanniere.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
     width: 100%;
 }
+
+
+
 
 #NousJoindre{
     font-family: maPolice;
@@ -51,6 +56,7 @@ body {
     font-weight:bold;
     padding-top: 3rem;
     font-size: 2rem;
+
 }
 #piedPage{
     font-size: 1rem;
@@ -85,6 +91,9 @@ h1, h2 {
 font-family: maPolice;
     color: white;
 }
+.centrerTitre{
+    margin: 0 auto;
+}
  p{
      text-align: left;
      font-family: maPolice;
@@ -96,12 +105,13 @@ hr{
     margin: 2% 0;
 }
 
-
 img{
     width: 100%;
 }
 
-
+#logo{
+    /*width: 100px;*/
+}
 .fondRouge{
     background-color: red;
     height: 100px;

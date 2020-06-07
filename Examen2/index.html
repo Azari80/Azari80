@@ -14,29 +14,41 @@
 </head>
 <body>
 <!-- Ici commence le premier container -entête du site- -->
-                                    <!-- se rappeler pour introduire le col.md - -->
-
-<img rc="../img/logo.png" class="img-fluid">
-
+<!-- se rappeler pour introduire le col.md - -->
 <div class="container-fluid text-center">
     <div class="row no-gutters">
         <!-- Ajout d'un padding top de 3 au colonnes du menu sans utiliser directement  du css- -->
-        <div class=" col-12  col-lg-2 col-xl-2 p-5" ><img src="img/logo.png"class="img-fluid"class="img-fluid"/></div>
-        <div class=" col-12  col-lg-2 col-xl-2 p-5" id="jeux">Jeux </div>
-        <div class=" col-12  col-lg-2 col-xl-2 p-5" id="Livre">Livres </div>
-        <div class=" col-12  col-lg-2 col-xl-2 p-5" id="E-Sport">E-Sport</div>
-        <div class=" col-12  col-lg-2 col-xl-2 p-5" id="Communauté">Communauté</div>
-        <div class=" col-12  col-lg-2 col-xl-2 p-5 " id="Boutique">Boutique </div>
+        <div class=" col-12  col-sm-6 col-md-6 col-lg-2 col-xl-2 p-5" >
+            <img src="img/logo.png" id="logo"/>
+        </div>
+        <div class=" col-12  col-sm-2 col-md-2 col-lg-2 col-xl-2 p-5" id="jeux">
+           Jeux
+        </div>
+        <div class=" col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 p-5" id="Livre">
+            Livres
+        </div>
+        <div class=" col-12  col-sm-2 col-md-2 col-lg-2 col-xl-2 p-5" id="E-Sport">
+            E-Sport
+        </div>
+        <div class=" col-12  col-sm-2 offset-sm-7 col-md-2 offset-md-7 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0  p-5" id="Communauté">
+            Communauté
+        </div>
+        <div class=" col-12 col-md-2 col-lg-2 col-xl-2 p-5 " id="Boutique">
+            Boutique
+        </div>
     </div>
 </div>
 <!-- Ici commence le deuxiènme container - Bannière du site- -->
-<div class="container-fluid text-center align-items-center" id="banniere" >
-    <div class="row" >
-        <div class="col-12 md-12 col-lg-12  ">
-            <div class="text-center"><h1>The Witcher 3</h1></div>
-            <br>
-            <div class="text-center"><h2>The Wild Hunt</h2></div>
-
+<div class="container-fluid " id="banniere" >
+    <div class="row">
+        <div class="centrerTitre">
+                <h1>
+                    The Witcher 3
+                </h1>
+            <br/>
+                <h2>
+                    The Wild Hunt
+                </h2>
         </div>
     </div>
 </div>
@@ -44,15 +56,22 @@
 <!-- Ici commence le troisième container - présentation des jeux- -->
 <div class="container">
     <div class="row">
-        <div class=" col-12 col-md-3  col-lg-3 col-xl-3 fondJaune"> Troisième section 3x avec un vide à droite </div>
+        <div class=" col-12 col-sm-3 offset-sm-5 col-md-3 offset-md-5 col-lg-3 offset-lg-0 col-xl-3 offset-xl-0 ">
+            <h2>Jeux</h2>
+        </div>
     </div>
     <hr>
-    <!-- code àa revoir surtout au niveau de lg. - -->
+    <!-- code à revoir surtout au niveau de lg. - -->
 
     <div class="row">
-        <div class=" col-12 col-md-6  col-lg-4 col-xl-4 fondJaune">Troisième section 4x</div>
-        <div class=" col-12 col-md-6 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 fondRouge">Troisième section 4x</div>
-        <div class=" col-12 col-md-4 offset-md-4 col-lg-4 col-xl-4 fondJaune">Troisième section 4x</div>
+        <div class=" col-12 col-sm-6 col-md-6  col-lg-4 col-xl-4 ">
+            <img src="img/witcher1.jpg"/>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-6 col-lg-4  col-xl-4 ">
+            <img src="img/witcher2.jpg"/></div>
+        <div class=" col-12 col-sm-4 offset-sm-4 col-md-4 offset-md-4 col-lg-4 offset-lg-0 col-xl-4 offset-xl-0 ">
+            <img src="img/witcher3.jpg"/>
+        </div>
     </div>
 </div>
 <!-- Ici commence le quatrieme container - présentation des livres - -->
@@ -61,14 +80,30 @@
 <div class="container ">
     <div class="row">
 
-        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3"><img src="img/witcherLivre1.jpg"/></div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre2.jpg"/></div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre3.jpg"/></div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre4.jpg"/></div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre5.jpg"/></div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre6.jpg"/></div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre7.jpg"/></div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3"><img src="img/witcherLivre8.jpg"/></div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <img src="img/witcherLivre1.jpg"/>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <img src="img/witcherLivre2.jpg"/>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <img src="img/witcherLivre3.jpg"/>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <img src="img/witcherLivre4.jpg"/>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <img src="img/witcherLivre5.jpg"/>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <img src="img/witcherLivre6.jpg"/>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <img src="img/witcherLivre7.jpg"/>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <img src="img/witcherLivre8.jpg"/>
+        </div>
     </div>
 
 </div>
@@ -76,17 +111,16 @@
 
 <div class="container-fluid text-center">
     <div class="row">
-        <div class="col-2 offset-5 col-sm-2 offset-sm-5 col-md-2 offset-md-5 col-lg-2 offset-lg-5 col-xl-2 offset-xl-5" id="NousJoindre">
-
-                        NOUS JOINDRE
+        <div class="col-12 col-sm-12  col-md-12  col-lg-2 offset-lg-5 col-xl-2 offset-xl-5 " id="NousJoindre">
+            NOUS JOINDRE
         </div>
     </div>
         <hr>,
     <div class="row no-gutters">
-        <div class="col-4 col-md-4 col-lg-4 ">
+        <div class="col-4 col-md-4 col-lg-4 fondRouge">
             <img src="img/piedPage.png"id="piedPage"/>
         </div>
-        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
             <i class="fab fa-twitter-square" id="Tweeter"></i>
         </div>
         <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
