@@ -152,14 +152,14 @@ hr{
     border-style: none;
     margin: 2% 0;
 }
-/*
+
 img{
     width: 100%;
 }
-*/
+/*
 #logo{
-    /*width: 100px;*/
-}
+    width: 100%;
+}*/
 .fondRouge{
     background-color: red;
     height: 100px;
