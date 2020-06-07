@@ -81,16 +81,13 @@ iconeEssai{
     color: white;
 }
 
-td{
-    width: 5rem;
-}
-
 h1, h2 {
 font-family: maPolice;
     color: white;
 }
 .centrerTitre{
     margin: 0 auto;
+    width:300px;
 }
  p{
      text-align: left;
