@@ -75,27 +75,22 @@ body {
 #witcherLivre1{
     padding-right:3em;
     padding-left:3rem;
-
 }
 #witcherLivre2{
     padding-right:3em;
     padding-left:3rem;
-
 }
 #witcherLivre3{
     padding-right:3em;
     padding-left:3rem;
-
 }
 #witcherLivre4{
     padding-right:3em;
     padding-left:3rem;
-
 }
 #witcherLivre5{
     padding-right:3em;
     padding-left:3rem;
-
 }
 #witcherLivre6{
     padding-right:3em;
@@ -109,7 +104,6 @@ body {
     padding-right:3em;
     padding-left:3rem;
 }
-
 
 #NousJoindre{
     font-family: maPolice;
@@ -158,11 +152,11 @@ hr{
     border-style: none;
     margin: 2% 0;
 }
-
+/*
 img{
     width: 100%;
 }
-
+*/
 #logo{
     /*width: 100px;*/
 }
