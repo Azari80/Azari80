@@ -52,6 +52,29 @@ body {
     width: 100%;
     background-position: center;
 }
+.centrerTitre{
+    margin: 0 auto;
+    width:18.75rem;
+}
+#witcher1{
+    padding-right:5rem;
+    padding-left:5rem;
+    /* margin-top:2rem;*/
+}
+#witcher2 {
+    padding-right: 5rem;
+    padding-left: 5rem;
+
+}
+#witcher3{
+    padding-right:5em;
+    padding-left:5rem;
+    /* margin-top:2rem;*/
+
+}
+#separationJeux{
+
+}
 
 #NousJoindre{
     font-family: maPolice;
@@ -59,7 +82,6 @@ body {
     font-weight:bold;
     padding-top: 3rem;
     font-size: 2rem;
-
 }
 #piedPage{
     font-size: 1rem;
@@ -90,10 +112,7 @@ h1, h2 {
 font-family: maPolice;
     color: white;
 }
-.centrerTitre{
-    margin: 0 auto;
-    width:18.75rem;
-}
+
  p{
      text-align: left;
      font-family: maPolice;
