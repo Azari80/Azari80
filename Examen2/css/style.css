@@ -60,21 +60,23 @@ body {
 
 
 #witcher1{
-    padding-right:4rem;
-    padding-left:4rem;
-    margin-top:4rem;
+    padding-right:3rem;
+    padding-left:3rem;
+    margin-top:3rem;
 }
 #witcher2 {
-    padding-right:4rem;
-    padding-left: 4rem;
-    margin-top:4rem;
+    padding-right:3rem;
+    padding-left: 3rem;
+    margin-top:3rem;
 
 }
 
 #witcher3 {
-    padding-right: 4em;
-    padding-left: 4rem;
-    margin-top: 4rem;
+    padding-right:3rem;
+    padding-left: 3rem;
+    margin-top:3rem;
+
+
 }
 
 
