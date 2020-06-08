@@ -171,7 +171,14 @@ hr{
     border-style: none;
     margin: 2% 0;
 }
-
+#separateurNousJoindreReseauxSociau{
+    background: #353434;
+    height: 1px;
+    border-style: none;
+    margin: 2% 0;
+    max-width: 50px;
+    color: white;
+}
 img{
     width: 100%;
 }
