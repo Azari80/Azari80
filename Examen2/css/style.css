@@ -80,7 +80,7 @@ body {
     margin-top:3rem;
 }
 
-
+/*
 #witcherLivre1{
     padding-right: 0.375rem;
     padding-top: 0rem;
@@ -89,18 +89,11 @@ body {
     margin-top: 0rem;
     margin-right: 0rem;
     margin-left: 0rem;
-    /*
-    padding-right:2em;
-    padding-left:2rem;
-    margin-top:2rem;*/
+
 }
 #witcherLivre2{
     padding-right: 0.375rem;
     padding-left: 1.5rem;
-    /*
-    padding-right:2em;
-    padding-left:2rem;
-     */
 }
 #witcherLivre3{
     padding-right: 1rem;
@@ -128,7 +121,7 @@ body {
     padding-right:2rem;
     padding-left:2rem;
 }
-
+*/
 #NousJoindre{
     font-family: maPolice;
     color:white;
