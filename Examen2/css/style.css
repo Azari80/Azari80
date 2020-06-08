@@ -69,10 +69,9 @@ body {
     margin-top:3rem;
 }
 #witcher2 {
-    padding-right:3rem;
+   padding-right:3rem;
     padding-left: 3rem;
     margin-top:3rem;
-
 }
 
 #witcher3 {
@@ -83,25 +82,42 @@ body {
 
 
 #witcherLivre1{
+    padding-right: 1em;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    /*
     padding-right:2em;
     padding-left:2rem;
-    margin-top:2rem;
+    margin-top:2rem;*/
 }
 #witcherLivre2{
+    padding-right: 2em;
+    padding-left: 0.5rem;
+    /*
     padding-right:2em;
     padding-left:2rem;
+     */
 }
 #witcherLivre3{
-    padding-right:2em;
+    padding-right: 1em;
     padding-left:2rem;
 }
 #witcherLivre4{
-    padding-right:2em;
-    padding-left:2rem;
+    padding-right: 0em;
+    padding-left: 1rem;
 }
 #witcherLivre5{
+    padding-right: 2em;
+    padding-left: 2rem;
+    padding-top: 0REM;
+    /*
     padding-right:2em;
     padding-left:2rem;
+     */
 }
 #witcherLivre6{
     padding-right:2em;
@@ -162,10 +178,6 @@ hr{
 img{
     width: 100%;
 }
-/*
-#logo{
-    width: 100%;
-}*/
 .fondRouge{
     background-color: red;
     height: 100px;
