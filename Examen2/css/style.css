@@ -39,7 +39,7 @@ body {
 }
 #JeuxColorSize{
     color:#6c6c6c;
-    padding-left: 10rem;
+    /*padding-left: 10rem;*/
 }
 #fontColorLivres{
     color:#6c6c6c;
@@ -48,7 +48,7 @@ body {
     width: auto;
 }
 #banniere {
-    padding: 27rem;
+    padding: 28rem;
     background-image: url("../img/witcherBanniere.jpg");
     background-repeat: no-repeat;
     background-size: cover;
