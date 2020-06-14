@@ -17,6 +17,14 @@ p{
 i{
     color: #f05f40;
 }
+.fas, .fa-bars{
+    color: rgb(6, 128, 37);
+    background-color: #e6e8f1;
+}
+
+
+
+
 img{
     width: 100%;
 }
