@@ -21,27 +21,13 @@ i{
     color: rgb(6, 128, 37);
     background-color: #e6e8f1;
 }
-header .container {
-    position: relative;
-    z-index: 2;
-}
-header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 95%;
-    width: 100%;
-    background-color : black;
-    opacity: 0.5;
-    z-index: 1;
-}
 
 
 
 img{
     width: 100%;
 }
-.buttonTrouveSurInternet {
+.buttonDemarrer{
     background-color: white;
     border: none;
     color: black;
