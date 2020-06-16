@@ -1,4 +1,13 @@
-hr{
+
+.parallax{
+    /* L’image du Parallax */
+    background-image: url("imgparallax.jpg");
+}
+
+
+
+
+r{
     margin-bottom:30px;
     margin-top:30px;
     max-width: 50px;
@@ -62,4 +71,29 @@ img{
 }
 #atYourService{
     padding-top: 2rem;
+}
+
+.fondRouge{
+    background-color: red;
+    height: 100px;
+}
+.fondBleu{
+    background-color: blue;
+    height: 100px;
+
+}
+
+.fondVert{
+    background-color: #87ff5d;
+    height: 100px;
+}
+.fondJaune{
+    background-color: yellow;
+    height: 100px;
+
+}
+.fondBlanc{
+    background-color: white;
+    height: 100px;
+
 }

@@ -1,0 +1,133 @@
+
+.parallax{
+    /* L’image du Parallax */
+    background-image: url("../img/yikpa.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1{
+    /* L’image du Parallax */
+    background-image: url("../img/Albert_DAVID_SOSSAVI.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    /* L’image du Parallax */
+    background-image: url("../img/Albert_Anniversaire_Mario.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+buttonTrouveSurInternet{
+
+    color: white;
+}
+
+
+
+r{
+    margin-bottom:30px;
+    margin-top:30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+i{
+    color: #f05f40;
+}
+.fas, .fa-bars{
+    color: rgb(6, 128, 37);
+    background-color: #e6e8f1;
+}
+
+
+
+img{
+    width: 100%;
+}
+.buttonDemarrer{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+#banniere{
+    padding: 20rem;
+    background-image: url("../img/VieuxQuebec.JPG");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#partie2{
+
+    padding: 4rem;
+}
+#partie4 {
+    background-color: #34ce57;
+    padding: 4rem;
+}
+#separation2{
+    border-color: white;
+}
+#separation3{
+    border-color: white;
+}
+#atYourService{
+    padding-top: 2rem;
+}
+
+.fondRouge{
+    background-color: red;
+    height: 100px;
+}
+.fondBleu{
+    background-color: blue;
+    height: 100px;
+
+}
+
+.fondVert{
+    background-color: #87ff5d;
+    height: 100px;
+}
+.fondJaune{
+    background-color: yellow;
+    height: 100px;
+
+}
+.fondBlanc{
+    background-color: white;
+    height: 100px;
+
+}
