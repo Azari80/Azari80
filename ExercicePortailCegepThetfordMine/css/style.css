@@ -85,7 +85,7 @@ img{
     border-radius: 40px;
 }
 #banniere{
-    padding: 20rem;
+    padding: 30rem;
     background-image: url("../img/VieuxQuebec.JPG");
     background-repeat: no-repeat;
     background-size:cover;
@@ -108,14 +108,21 @@ img{
     padding-top: 2rem;
 }
 
-.fondRouge{
-    background-color: red;
-    height: 100px;
+
+#Carrejaune{
+    padding-top: 5rem;
 }
+
+.fondRouge{
+    background-color: rgba(70, 187, 161, 0.2);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+}
+
 .fondBleu{
     background-color: blue;
     height: 100px;
-
 }
 
 .fondVert{
@@ -123,7 +130,7 @@ img{
     height: 100px;
 }
 .fondJaune{
-    background-color: yellow;
+    background-color: #65651f;
     height: 100px;
 
 }
