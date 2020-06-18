@@ -1,0 +1,63 @@
+
+
+.parallax{
+    /* L’image du Parallax */
+    background-image: url("../img/ag.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fondRouge{
+    background-color: rgba(70, 187, 161, 0.2);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.fondBleu{
+    background-color: blue;
+    height: 100px;
+}
+
+.fondVert{
+    background-color: #87ff5d;
+    height: 100px;
+}
+.fondJaune{
+    background-color: #65651f;
+    height: 100px;
+
+}
+.fondBlanc{
+    background-color: white;
+    height: 100px;
+
+}
