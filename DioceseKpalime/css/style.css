@@ -1,9 +1,13 @@
 
 .parallax{
     /* L’image du Parallax */
-    background-image: url("../img/kpalime4.jpg");
+    background-image: url("../img/evequepeupleDieu.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 r{
     margin-bottom:30px;
@@ -61,6 +65,12 @@ img{
     background-color: #34ce57;
     padding: 4rem;
 }
+partie5{
+    background-color: #9fcdff;
+    padding: 4rem;
+}
+
+
 #separation2{
     border-color: white;
 }
