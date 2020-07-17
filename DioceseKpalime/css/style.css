@@ -26,7 +26,7 @@ r{
     border-color: #f05f40;
 }
 h1{
-    color: forestgreen;
+    color: #f11555;
 }
 h2{
     color: white;
@@ -78,14 +78,19 @@ img{
     background-color: #9fcdff;
     padding: 6rem;
 }
-.partie6{
+#partie6{
+    padding: 10rem;
+    background-color: #9fcdff;
+}
+#partie7
+{
     padding: 10rem;
     background-color: #9fcdff;
 }
 
-.piedpage{
+.piedpageTexte{
     padding: 5rem;
-    background-color: #9fcdff;
+    background-color: green;
 }
 
 
@@ -95,9 +100,10 @@ img{
 #separation3{
     border-color: white;
 }
-#atYourService{
+#Actualites{
     padding-top: 2rem;
 }
+
 
 bg::after {
     content: "";
