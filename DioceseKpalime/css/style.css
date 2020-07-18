@@ -1,4 +1,7 @@
 
+/* style.css */
+/* Par Komlan Albert Gblokpor-Koffi*/
+/*Le 17/07/2020 */
 .parallax{
     /* L’image du Parallax */
     background-image: url("../img/evequepeupleDieu.png");
@@ -38,19 +41,7 @@ i{
 img{
     width: 100%;
 }
-.buttonDemarrer{
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 40px;
-}
+
 #banniere{
     padding: 20rem;
     background-image: url("../img/Banniere.jpg");
@@ -61,6 +52,12 @@ img:hover {
     box-shadow:20px 20px 5px 1px #7aa780;
 }
 #SectionActualite{
+    background-color: #b2e5bd;
+}
+#SectionPresbyterium{
+    background-color: #b2e5bd;
+}
+#SectionEveque{
     background-color: #b2e5bd;
 }
 #partie2{
@@ -79,13 +76,12 @@ img:hover {
     padding: 10rem;
     background-color: #9fcdff;
 }
-#partie7
-{
-    padding: 10rem;
-    background-color: #9fcdff;
+#partie7 {
+    padding: 7rem;
+    background-color: #b2e5bd;
 }
 
-.piedpageTexte{
+#consultation{
     padding: 5rem;
     background-color: green;
 }
