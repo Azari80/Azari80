@@ -109,9 +109,8 @@ bg::after {
     z-index: -1;
 }
 
-/* tablettes */
+/* Pour les tablettes */
 @media screen and (min-width: 481px) and (max-width: 1199px){
-
     #partie2{
         background-image: url("../img/kpalime3.jpg");
         background-repeat: no-repeat;
@@ -122,7 +121,7 @@ bg::after {
         position: relative;
     }
 }
-/* Cellulaires M*/
+/* Pour les cellulaires */
 @media screen and (max-width: 480px){
     #partie2{
         background-image: url("../img/kpalime2.jpg");
