@@ -5,7 +5,7 @@
 
 #formulaire{
     padding: 7rem;
-    background-color: #80c170;
+    background-color: #333831;
 }
 
 h1{
@@ -20,4 +20,69 @@ p{
 hr{
     border-color: white;
 }
+.nom{
+    color: white;
+}
+.prenom{
+    color: white;
+}
+.dateNaissance{
+    color: white;
+}
+.codeRegional{
+    color: white;
+}
+.telephone{
+    color: white;
+}
+.codeRegional2{
+    color: white;
+}
+.numDeTelephone{
+    color: white;
+}
+.email{
+    color: white;
+}
+.adresse{
+    color: white;
+}
+.numdePorte{
+    color: white;
+}
+.numerodApparetement {
+    color: white;
+}
 
+.ville{
+    color: white;
+}
+.etatProvince{
+    color: white;
+}
+.codePostal{
+    color: white;
+}
+#deuxiemecCase {
+    background-color: #80bdff;
+}
+#body {
+    color: #d01212;
+}
+
+.rouge{
+    background-color:red;
+
+
+}
+.green{
+    background-color: green;
+
+}
+.bleu{
+    background-color: blue;
+
+}
+.Asterisque{
+    color: red;
+}
