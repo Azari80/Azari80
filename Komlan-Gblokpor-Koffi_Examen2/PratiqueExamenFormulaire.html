@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/validation.js"></script>
+</head>
+<body>
+
+<form onsubmit="return validerFormulaireChat()">
+    <label for="prenom">Prénom* : </label>
+    <input id="prenom" type="text" maxlength="100" required>
+
+    <br>
+
+    <label for="nom">Nom* : </label>
+    <input id="nom" type="text" maxlength="100" required>
+
+    <br>
+
+    <label for="ddn">Date de naissance* :</label>
+    <input id="ddn" type="date" min="1990-01-01" max="2020-10-13" required>
+
+    <br>
+
+    <label for="taille">Taille (cm)* :</label>
+    <input id="taille" type="number" max="200" min="5" required>
+
+    <br>
+
+    <label for="poid">poid (gramme)* :</label>
+    <input id="poid" type="number" max="18143.7" min="5" required>
+
+    <br>
+
+    <label for="vaccine">Vacciné* :</label>
+    <input id="vaccine" type="checkbox" >
+
+    <br>
+
+    <label for="couleurs">Couleurs* :</label>
+    <select id="couleurs" >
+        <option value="noir">noir</option>
+        <option value="blanc">blanc</option>
+        <option value="brun">brun</option>
+        <option value="mixte">mixte</option>
+    </select>
+
+    <br>
+
+    <label for="domestique" >Domestique</label>
+    <input id="domestique"  type="radio" value="domestique" name="typeDeChat">
+
+    <label for="race" >Raçé</label>
+    <input id="race" type="radio" value="raçé" name="typeDeChat">
+
+    <br>
+
+    <label for="photo" >Photo(s) :</label>
+    <input id="photo" type="file" >
+
+    <br>
+
+
+    <label for="courriel" >Courriel* :</label>
+    <input id="courriel" type="email" required>
+
+    <br>
+
+    <label for="telephone" >Numéro de téléphone* :</label>
+    <input id="telephone" type="text" required pattern="[0-9]{4}-[0-9]{3}--[0-9]{1}/[A-Z]">
+
+    <br>
+
+
+    <input type="submit" value="Soumettre le formulaire">
+
+
+</form>
+</body>
+</html>

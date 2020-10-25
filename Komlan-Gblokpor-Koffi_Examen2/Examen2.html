@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--
+index.html
+Komlan Albert Gblokpor-Koffi
+Dernière modification : 23-10-2020
+-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Bienvenue mission mars</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="icon" type="image/png" href="img/logo.jpg" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="formulaire">
+<div class="container-fluid text-left" >
+    <div class="row">
+        <div class="col-12 col-xl-6 offset-xl-3">
+            <h1 > Participez à l'avenir de la race humaine!</h1>
+            <h5> Inscrivez-vous à la prochaine mission de colonisation sur Mars !</h5> <br>  <hr id="ligne">
+            <form>
+                <div class="container-fluid">
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label>Identification</label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <input type="text" class="form-control" id="nom" required >
+                            <label for="nom">Nom</label>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="prenom" >
+                            <label for="prenom"> Prénom </label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label> Date de naissance </label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-9">
+                            <input type="date" class="form-control" id="inputNom1"  required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label>Numéro de </label>  <br> <label>téléphone</label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input type="tel" class="form-control" id="phone"  pattern="[0-9]{3}" placeholder="ex: 000"required>
+                            <label for="phone">Code régional</label>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="numPhone"  pattern="[0-9]{3}-[0-9]{4}"  placeholder=" ex: 000-0000"required >
+                            <label for="numPhone"> Numéro de téléphone </label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label> E-mail </label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-9">
+                            <input type="email" class="form-control" id="email" placeholder=" ex: myname@example.com" required>
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label> Adresse </label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-9">
+                            <input type="number" class="form-control" id="numero"  required>
+                            <label for="numero"> Numéro de porte </label>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label>  </label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-9">
+                            <input type="number" class="form-control" id="numeroAppartement"  required>
+                            <label for="numeroAppartement"> Numéro d'appartement </label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label> </label>  <br> <label> </label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="ville"  required>
+                            <label for="ville">Ville</label>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="province"  required >
+                            <label for="province"> État/Province </label>
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label> </label>  <br> <label> </label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="codePostal"  required>
+                            <label for="codePostal">Code postal</label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label>Sexe </label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-9">
+                            <select id="sexe" >
+                                <option value="masculin">Masculin</option>
+                                <option value="feminin">Feminin</option>
+                            </select>
+                            <label for="sexe"></label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label>Métier</label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-9">
+                            <input type="text" class="form-control" id="metier"  required>
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <p>
+                                <label>Présentation</label>
+                            </p>
+                        </div>
+                        <div class="form-group col-md-9">
+                            <textarea class="form-control" id="messageArea" placeholder="Écrivez votre adresse ici" rows="5"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+
+                        </div>
+                        <div class="form-group col-md-9">
+                            <button type="button" class="btn btn-light" >Soumettre ma candidature</button>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </form>
+        </div>
+
+
+</div>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+</body>
+
+
+</html>
+</html>
