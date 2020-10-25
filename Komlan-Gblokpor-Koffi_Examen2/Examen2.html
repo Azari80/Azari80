@@ -12,13 +12,15 @@ Dernière modification : 23-10-2020
     <link rel="icon" type="image/png" href="img/logo.jpg" />
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body id="">
+<body id="backgroundColor">
 
         <div  class="container-fluid text-left" >
 
-            <!--  Ici commence ma première case dans lequel se trouve le formulaire -->
+            <!--  Ici commence ma première grid dans lequel se trouve le formulaire -->
             <div class="row" >
                 <div class="col-12 col-xl-6 offset-xl-1 mt-5 mb-5" id="formulaire" >
                     <h1 > Participez à l'avenir de la race humaine!</h1>
@@ -28,7 +30,7 @@ Dernière modification : 23-10-2020
                             <div class="form-row">
                                 <div class="form-group col-md-3">
                                     <p>
-                                        <label>Identification <span class="Asterisque"> * </span></label>
+                                        <label for="nom">Identification <span class="Asterisque"> * </span></label>
                                     </p>
                                 </div>
                                 <div class="form-group col-md-3">
@@ -36,7 +38,7 @@ Dernière modification : 23-10-2020
                                     <label for="nom" class="nom">Nom</label>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" id="prenom" required>
+                                    <input type="text" class="form-control" id="prenom" maxlength="100" required>
                                     <label for="prenom" class="prenom"> Prénom </label>
                                 </div>
                             </div>
@@ -44,11 +46,11 @@ Dernière modification : 23-10-2020
                             <div class="form-row">
                                 <div class="form-group col-md-3">
                                     <p>
-                                        <label class="dateNaissance"> Date de naissance <span class="Asterisque"> * </span></label>
+                                        <label for="Birthday" class="dateNaissance" > Date de naissance <span class="Asterisque"> * </span></label>
                                     </p>
                                 </div>
                                 <div class="form-group col-md-9">
-                                    <input type="date" class="form-control" id="inputNom1"  required>
+                                    <input type="date" class="form-control" id="Birthday" min="1910-01-01" max="2020-10-25" size="100" required>
                                 </div>
 
                             </div>
@@ -63,7 +65,7 @@ Dernière modification : 23-10-2020
                                     <input type="tel" class="form-control" id="phone"  pattern="[0-9]{3}" placeholder="ex: 000"required>
                                     <label for="phone" class="codeRegional2">Code régional</label>
                                 </div>
-
+                                <span class="tiret"> - </span>
                                 <div class="form-group col-md-6">
                                     <input type="text" class="form-control" id="numPhone"  pattern="[0-9]{3}-[0-9]{4}"  placeholder=" ex: 000-0000"required >
                                     <label for="numPhone" class="numDeTelephone"> Numéro de téléphone </label>
@@ -78,6 +80,7 @@ Dernière modification : 23-10-2020
                                 </div>
                                 <div class="form-group col-md-9">
                                     <input type="email" class="form-control" id="email" placeholder=" ex: myname@example.com" required>
+                                    <label for="phone" class="codeRegional2">exemple@exemple.com</label>
                                 </div>
 
                             </div>
@@ -136,6 +139,7 @@ Dernière modification : 23-10-2020
                                 </div>
                                 <div class="form-group col-md-9">
                                     <select id="sexe" required >
+                                        <option value="vide"></option>
                                         <option value="masculin">Masculin</option>
                                         <option value="feminin">Feminin</option>
                                     </select>
@@ -145,7 +149,7 @@ Dernière modification : 23-10-2020
                             <div class="form-row">
                                 <div class="form-group col-md-3">
                                     <p>
-                                        <label>Métier<span class="Asterisque"> * </span></label>
+                                        <label for="metier">Métier<span class="Asterisque"> * </span></label>
                                     </p>
                                 </div>
                                 <div class="form-group col-md-9">
@@ -156,11 +160,11 @@ Dernière modification : 23-10-2020
                             <div class="form-row">
                                 <div class="form-group col-md-3">
                                     <p>
-                                        <label>Présentation</label>
+                                        <label for="messageArea">Présentation</label>
                                     </p>
                                 </div>
                                 <div class="form-group col-md-9">
-                                    <textarea class="form-control" id="messageArea" placeholder="Écrivez votre adresse ici" rows="5"></textarea>
+                                    <textarea type="text"  class="form-control" id="messageArea" placeholder="Présentez-vous brièvement ici" rows="5"></textarea>
                                 </div>
 
                             </div>
@@ -169,41 +173,62 @@ Dernière modification : 23-10-2020
 
                                 </div>
                                 <div class="form-group col-md-9">
-                                    <button type="button" class="btn btn-light" >Soumettre ma candidature</button>
+                                    <button type="submit" class="btn btn-light">Soumettre ma candidature</button>
                                 </div>
                             </div>
 
                         </div>
                     </form>
                 </div>
-                <!--  Ici commence ma deuxime grid boostrap dans lequel se trouve les images  -->
-                <div class="row mb-5 mt-5 rouge">
+                <!--  Ici commence ma deuxime grid boostrap dans lequel se trouve MARS, la flèche d'indication de la planète Mars  et l'icone de Paypal -->
+                <div class="row mb-5 mt-5 ">
                     <div class="container-fluid p-5 pt5 pb-5 ">
-                        <div class="col-12 bleu">
+                        <div class="col-12 ">
+                            <canvas id="Canvas" width="500" height="500" style="border:1px solid #000000"></canvas>
+                            <script>
+                                //on stock notre canvas html dans une variable
+                                let canvas = document.getElementById("Canvas");
 
+                                let ctx = canvas.getContext("2d");
+                                ctx.fillStyle = "black";
+                                ctx.fillRect(0,0,500,500);
+                                //je crée un gradient
+                                let grad = ctx.createRadialGradient(150, 140, 95, 109,120, 220);
+                                grad.addColorStop(0,"#f29828");
+                                grad.addColorStop(1,"black");
+
+                                //je remplis mon canvas de la couleur noir
+                                ctx.fillStyle = "black";
+                                ctx.fillRect(0,0,600,300);
+                                ctx.fill();
+                                //je dessine un cercle et je le remplis par mon gradient
+                               ctx.beginPath();ctx.arc(150,150,150,0,2*Math.PI);
+                               ctx.stroke();
+                                ctx.fillStyle = grad;
+                                ctx.fill();
+                                // J'écris le nom de la planète MARS
+                                ctx.fillStyle = "black";
+                                ctx.font = "bold 50px Arial";
+                                ctx.fillText("MARS",80,150);
+                            </script>
+
+                        <br>
+                        <div class=" col-12 mb-10 " id="">
                             <svg height="300" width="300">
-                                <circle r="90" cx="150" cy="150" fill="red" stroke="purple" stroke-width="9"></circle>
+                                <polygon points="140,10 290,290 10,290" fill="white" stroke="black" stroke-width="5"></polygon>
                             </svg>
 
-                        <br>
-                        <div class=" col-12 mb-10 rouge" id="green">
-                            <img src="img/Kpalime2.jpg" height="400" width="602"/>
                         </div>
-                        <br>
-                        <br>
-                        <div class="col-12 pt10 bleu" id="bleu">
-                            <img src="img/Kpalime2.jpg" height="400" width="602"/>
 
+                        <div class="col-12 pt10 " id="">
+                            <img src="img/Kpalime2.jpg" height="400" width="602"/>
                         </div>
                     </div>
-
-
                 </div>
         </div>
 
 
 </div>
-
 <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>

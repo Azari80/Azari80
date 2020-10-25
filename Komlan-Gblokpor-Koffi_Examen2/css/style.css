@@ -3,6 +3,15 @@
 /* Par Komlan Albert Gblokpor-Koffi*/
 /*Le 17/07/2020 */
 
+@font-face {
+    font-family: maPolice;
+    src: url("../font/Starjedi.ttf");
+}
+
+#backgroundColor{
+    background-color: black;
+}
+
 #formulaire{
     padding: 7rem;
     background-color: #333831;
@@ -64,7 +73,7 @@ hr{
     color: white;
 }
 #deuxiemecCase {
-    background-color: #80bdff;
+    background-color: #d49e65;
 }
 #body {
     color: #d01212;
@@ -85,4 +94,7 @@ hr{
 }
 .Asterisque{
     color: red;
+}
+.tiret{
+    color: white;
 }
