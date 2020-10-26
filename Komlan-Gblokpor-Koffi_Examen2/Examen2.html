@@ -2,7 +2,7 @@
 <!--
 index.html
 Komlan Albert Gblokpor-Koffi
-Dernière modification : 23-10-2020
+Dernière modification : 25-10-2020
 -->
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,8 +12,9 @@ Dernière modification : 23-10-2020
     <link rel="icon" type="image/png" href="img/logo.jpg" />
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="js/validationDeFormulaire.js"></script>
     <link rel="stylesheet" href="css/style.css">
+
 
 </head>
 <body id="backgroundColor">
@@ -22,10 +23,10 @@ Dernière modification : 23-10-2020
 
             <!--  Ici commence ma première grid dans lequel se trouve le formulaire -->
             <div class="row" >
-                <div class="col-12 col-xl-6 offset-xl-1 mt-5 mb-5" id="formulaire" >
+                <div class="col-12 col-xl-8 offset-xl-1 mt-5 mb-5" id="formulaire" >
                     <h1 > Participez à l'avenir de la race humaine!</h1>
                     <h5> Inscrivez-vous à la prochaine mission de colonisation sur Mars !</h5> <br>  <hr id="ligne">
-                    <form>
+                    <form  name="monFormulaire" onsubmit="return validationFormulaire()" methode ="post">
                         <div class="container-fluid">
                             <div class="form-row">
                                 <div class="form-group col-md-3">
@@ -34,12 +35,12 @@ Dernière modification : 23-10-2020
                                     </p>
                                 </div>
                                 <div class="form-group col-md-3">
-                                    <input type="text" class="form-control" id="nom" required >
+                                    <input type="text" class="form-control" maxlength="40" id="nom" required >
                                     <label for="nom" class="nom">Nom</label>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" id="prenom" maxlength="100" required>
-                                    <label for="prenom" class="prenom"> Prénom </label>
+                                    <input type="text" class="form-control" id="prenom" maxlength="40" required>
+                                    <label for="prenom" class="prenom" > Prénom </label>
                                 </div>
                             </div>
 
@@ -50,7 +51,7 @@ Dernière modification : 23-10-2020
                                     </p>
                                 </div>
                                 <div class="form-group col-md-9">
-                                    <input type="date" class="form-control" id="Birthday" min="1910-01-01" max="2020-10-25" size="100" required>
+                                    <input type="date" class="form-control" id="Birthday" min="1940-01-01" max="2020-10-25" size="100" required>
                                 </div>
 
                             </div>
@@ -62,8 +63,9 @@ Dernière modification : 23-10-2020
                                     </p>
                                 </div>
                                 <div class="form-group col-md-2">
-                                    <input type="tel" class="form-control" id="phone"  pattern="[0-9]{3}" placeholder="ex: 000"required>
+                                    <input type="tel" class="form-control" id="phone"   placeholder="ex: 000"required>
                                     <label for="phone" class="codeRegional2">Code régional</label>
+
                                 </div>
                                 <span class="tiret"> - </span>
                                 <div class="form-group col-md-6">
@@ -91,14 +93,14 @@ Dernière modification : 23-10-2020
                                     </p>
                                 </div>
                                 <div class="form-group col-md-9">
-                                    <input type="number" class="form-control" id="numero"  required>
+                                    <input type="number" class="form-control" id="numero" maxlength="10" required>
                                     <label for="numero" class="numdePorte"> Numéro de porte </label>
                                 </div>
                                 <div class="form-group col-md-3">
 
                                 </div>
                                 <div class="form-group col-md-9">
-                                    <input type="number" class="form-control" id="numeroAppartement"  required>
+                                    <input type="number" class="form-control" id="numeroAppartement" maxlength="10" required>
                                     <label for="numeroAppartement" class="numerodApparetement"> Numéro d'appartement </label>
                                 </div>
                             </div>
@@ -109,12 +111,12 @@ Dernière modification : 23-10-2020
                                     </p>
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <input type="text" class="form-control" id="ville"  required>
+                                    <input type="text" class="form-control" id="ville" maxlength="40"  required>
                                     <label for="ville" class="ville">Ville</label>
                                 </div>
 
                                 <div class="form-group col-md-4">
-                                    <input type="text" class="form-control" id="province"  required >
+                                    <input type="text" class="form-control" id="province" maxlength="20" required >
                                     <label for="province" class="etatProvince"> État/Province </label>
                                 </div>
 
@@ -126,7 +128,7 @@ Dernière modification : 23-10-2020
                                     </p>
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <input type="text" class="form-control" id="codePostal"  required>
+                                    <input type="text" class="form-control" id="codePostal" maxlength="8"  required>
                                     <label for="codePostal" class="codePostal">Code postal</label>
                                 </div>
                             </div>
@@ -164,7 +166,7 @@ Dernière modification : 23-10-2020
                                     </p>
                                 </div>
                                 <div class="form-group col-md-9">
-                                    <textarea type="text"  class="form-control" id="messageArea" placeholder="Présentez-vous brièvement ici" rows="5"></textarea>
+                                    <textarea type="text"  class="form-control" id="messageArea"  rows="5"></textarea>
                                 </div>
 
                             </div>
@@ -197,7 +199,7 @@ Dernière modification : 23-10-2020
                                 grad.addColorStop(0,"#f29828");
                                 grad.addColorStop(1,"black");
 
-                                //je remplis mon canvas de la couleur noir
+                                //je remplis mon canvas de la couleur noire
                                 ctx.fillStyle = "black";
                                 ctx.fillRect(0,0,600,300);
                                 ctx.fill();
@@ -217,14 +219,25 @@ Dernière modification : 23-10-2020
                             <svg height="300" width="300">
                                 <polygon points="140,10 290,290 10,290" fill="white" stroke="black" stroke-width="5"></polygon>
                             </svg>
+                            <br>
+                            <h1 class="Destination"> Destination </h1>
+                            <script src="https://www.paypal.com/sdk/js?client-id=sb" class="paypal"></script>
+                            <script>paypal.Buttons().render('body');</script></td>
+                     </div>
+                        <div class="col-12 pt-3 text-right " >
 
-                        </div>
+                            <table>
+                                <tr>
+                                    <td>
+                                </tr>
 
-                        <div class="col-12 pt10 " id="">
-                            <img src="img/Kpalime2.jpg" height="400" width="602"/>
+                            </table>
+
                         </div>
                     </div>
                 </div>
+                </div>
+            </div>
         </div>
 
 

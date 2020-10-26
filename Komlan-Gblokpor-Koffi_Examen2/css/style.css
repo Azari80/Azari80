@@ -1,11 +1,11 @@
 
 /* style.css */
 /* Par Komlan Albert Gblokpor-Koffi*/
-/*Le 17/07/2020 */
+/*Le 25/10/2020 */
 
 @font-face {
     font-family: maPolice;
-    src: url("../font/Starjedi.ttf");
+    src: url("/font/lucida_Consol.TTF");
 }
 
 #backgroundColor{
@@ -97,4 +97,18 @@ hr{
 }
 .tiret{
     color: white;
+}
+
+.Destination{
+    font-family:Lucida Console, Monaco, monospace;
+   // font-family: maPolice;
+    font-size: 60px;
+    color: white;
+    text-align: left;
+}
+.paypal{
+    width: 50px;
+    height: 50px;
+
+
 }
