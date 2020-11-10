@@ -1,8 +1,4 @@
-<!--
-index.html
-Komlan Albert Gblokpor-Koffi
-Dernière modification : 25-10-2020
--->
+
 function validationFormulaire() {
     let codeRegional = document.getElementById("phone");
 
