@@ -19,7 +19,7 @@ function validationFormulaire() {
     if(codeRegionalPermise === false){
         alert(" SVP Vous n'avaez pas entré le bon CODE REGIONAL !!!! Veuillez choisir un code regional entre  ceux-ci: 819; 418; 514 MERCI !!!! ");
     }
-    return codeRegionalPermise;
+    return "Bravo vous avez bien entré le bon code regional";
 }
 
 
