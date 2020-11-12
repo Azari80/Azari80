@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77acfb71-0c43-4d96-a35e-ff85b644cd5f" name="Default Changelist" comment="" />
+    <list default="true" id="77acfb71-0c43-4d96-a35e-ff85b644cd5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ProjetFinal_KomlanGblokpor-Koffi/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetFinal_KomlanGblokpor-Koffi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetFinal_KomlanGblokpor-Koffi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetFinal_KomlanGblokpor-Koffi/js/sccript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetFinal_KomlanGblokpor-Koffi/css/style2.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +59,7 @@
       <workItem from="1591223691188" duration="6964000" />
       <workItem from="1591233536968" duration="4000" />
       <workItem from="1600908009347" duration="71000" />
+      <workItem from="1605160096532" duration="47000" />
     </task>
     <servers />
   </component>
