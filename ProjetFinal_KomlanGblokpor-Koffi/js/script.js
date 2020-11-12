@@ -1,4 +1,11 @@
-$('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: false
-});.to(h,.200,{drawSVG:"0% 50%",ease:Linear.easeNone}).to(h,.75,{drawSVG:"100% 100%",ease:Power2.easeOut}).to(b,1,{x:0,y:0,delay:.3}).to(".maskText1",1,{text:"I DESIGN",delay:.3})})();
+var elemets = document.querySelector('svg').children;
+
+anime({
+    targets: 'line',
+    translateX: [
+        {value: 270, duration: 1000, easing: 'easeOutSine'},
+        {value: 0, duration: 1000, easing: 'easeOutSine'}
+    ],
+    delay: anime.stagger(200, {grid: [16,10], from: 7}),
+    loop: true
+})

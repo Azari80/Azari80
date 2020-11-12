@@ -2,6 +2,22 @@
 /* style.css */
 /* Par Komlan Albert Gblokpor-Koffi*/
 /*Le 17/07/2020 */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg{
+    fill: #fff;
+    width: 70%;
+}
+
+
 .parallax{
     /* L’image du Parallax */
     background-image: url("../img/evequepeupleDieu.png");
@@ -43,10 +59,21 @@ hr{
 .prenom{
     color: white;
 }
-.sexe{
+.preference{
     color: white;
 }
-
+.un{
+    color: white;
+}
+.deux{
+    color: white;
+}
+.trois{
+    color: white;
+}
+.plusieurs{
+    color: white;
+}
 .souhaits{
     color: white;
 }
