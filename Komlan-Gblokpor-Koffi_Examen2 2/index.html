@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--
+index.html
+Komlan Albert Gblokpor-Koffi
+Dernière modification : 25-10-2020
+-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Bienvenue mission mars</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="icon" type="image/png" href="img/logo.jpg" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/validationDeFormulaire.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body id="backgroundColor">
+
+        <div  class="container-fluid text-left" >
+
+            <!--  Ici commence ma première grid dans lequel se trouve le formulaire -->
+            <div class="row" >
+                <div class="col-12 col-xl-6 offset-xl-1 mt-5 mb-5" id="formulaire" >
+                    <h1 > Participez à l'avenir de la race humaine!</h1>
+                    <h5> Inscrivez-vous à la prochaine mission de colonisation sur Mars !</h5> <br>  <hr id="ligne">
+                    <form  name="monFormulaire" onsubmit="return validationFormulaire()" methode ="post">
+                        <div class="container-fluid">
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label for="nom">Identification <span class="Asterisque"> * </span></label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <input type="text" class="form-control" maxlength="40" id="nom" required >
+                                    <label for="nom" class="nom">Nom</label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="prenom" maxlength="40" required>
+                                    <label for="prenom" class="prenom" > Prénom </label>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label for="Birthday" class="dateNaissance" > Date de naissance <span class="Asterisque"> * </span></label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <input type="date" class="form-control" id="Birthday" min="1940-01-01" max="2020-10-25" size="100" required>
+                                </div>
+
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label class="codeRegional">Numéro de </label>  <br> <label class="telephone">téléphone <span class="Asterisque"> * </span></label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <input type="tel" class="form-control" id="phone"   placeholder="ex: 000"required>
+                                    <label for="phone" class="codeRegional2">Code régional</label>
+
+                                </div>
+                                <span class="tiret"> - </span>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="numPhone"  pattern="[0-9]{3}-[0-9]{4}"  placeholder=" ex: 000-0000"required >
+                                    <label for="numPhone" class="numDeTelephone"> Numéro de téléphone </label>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label class="email"> E-mail<span class="Asterisque"> * </span></label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <input type="email" class="form-control" id="email" placeholder=" ex: myname@example.com" required>
+                                    <label for="phone" class="codeRegional2">exemple@exemple.com</label>
+                                </div>
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label class="adresse"> Adresse <span class="Asterisque"> * </span></label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <input type="number" class="form-control" id="numero" maxlength="10" required>
+                                    <label for="numero" class="numdePorte"> Numéro de porte </label>
+                                </div>
+                                <div class="form-group col-md-3">
+
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <input type="number" class="form-control" id="numeroAppartement" maxlength="10" required>
+                                    <label for="numeroAppartement" class="numerodApparetement"> Numéro d'appartement </label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label> </label>  <br> <label> </label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input type="text" class="form-control" id="ville" maxlength="40"  required>
+                                    <label for="ville" class="ville">Ville</label>
+                                </div>
+
+                                <div class="form-group col-md-4">
+                                    <input type="text" class="form-control" id="province" maxlength="20" required >
+                                    <label for="province" class="etatProvince"> État/Province </label>
+                                </div>
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label> </label>  <br> <label> </label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input type="text" class="form-control" id="codePostal" maxlength="8"  required>
+                                    <label for="codePostal" class="codePostal">Code postal</label>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label>Sexe <span class="Asterisque"> * </span></label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <select id="sexe" required >
+                                        <option value="vide"></option>
+                                        <option value="masculin">Masculin</option>
+                                        <option value="feminin">Feminin</option>
+                                    </select>
+                                    <label for="sexe"></label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label for="metier">Métier<span class="Asterisque"> * </span></label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <input type="text" class="form-control" id="metier"  required>
+                                </div>
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <p>
+                                        <label for="messageArea">Présentation</label>
+                                    </p>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <textarea type="text"  class="form-control" id="messageArea"  rows="5"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <button type="submit" class="btn btn-light">Soumettre ma candidature</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <!--  Ici commence ma deuxime grid boostrap dans lequel se trouve MARS, la flèche d'indication de la planète Mars  et l'icone de Paypal -->
+                <div class="row mb-5 mt-5 ">
+                    <div class="container-fluid p-5 pt5 pb-5 ">
+                        <div class="col-12 ">
+                            <canvas id="Canvas" width="500" height="500" style="border:1px solid #000000"></canvas>
+                            <script>
+                                //on stock notre canvas html dans une variable
+                                let canvas = document.getElementById("Canvas");
+
+                                let ctx = canvas.getContext("2d");
+                                ctx.fillStyle = "black";
+                                ctx.fillRect(0,0,500,500);
+                                //je crée un gradient
+                                let grad = ctx.createRadialGradient(150, 140, 95, 109,120, 220);
+                                grad.addColorStop(0,"#f29828");
+                                grad.addColorStop(1,"black");
+
+                                //je remplis mon canvas de la couleur noire
+                                ctx.fillStyle = "black";
+                                ctx.fillRect(0,0,600,300);
+                                ctx.fill();
+                                //je dessine un cercle et je le remplis par mon gradient
+                               ctx.beginPath();ctx.arc(150,150,150,0,2*Math.PI);
+                               ctx.stroke();
+                                ctx.fillStyle = grad;
+                                ctx.fill();
+                                // J'écris le nom de la planète MARS
+                                ctx.fillStyle = "black";
+                                ctx.font = "bold 50px Arial";
+                                ctx.fillText("MARS",80,150);
+                            </script>
+
+                        <br>
+                        <div class=" col-12 mb-10 " id="">
+                            <svg height="300" width="300">
+                                <polygon points="140,10 290,290 10,290" fill="white" stroke="black" stroke-width="5"></polygon>
+                            </svg>
+                            <br>
+                            <h1 class="Destination"> Destination </h1>
+                     </div>
+                        <div class="col-12 pt-3 text-right " >
+                            <script src="https://www.paypal.com/sdk/js?client-id=sb" class="paypal"></script>
+                            <script>paypal.Buttons().render('body');</script>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+</div>
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+</body>
+
+
+</html>
+</html>

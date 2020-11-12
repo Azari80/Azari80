@@ -20,7 +20,104 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#formulaire{
+    padding: 7rem;
+    background-color: #333831;
+}
 
+h1{
+    color: white;
+}
+h5{
+    color: white;
+}
+p{
+    color: white;
+}
+hr{
+    border-color: white;
+}
+.nom{
+    color: white;
+}
+.prenom{
+    color: white;
+}
+.sexe{
+    color: white;
+}
+
+.souhaits{
+    color: white;
+}
+
+.dateNaissance{
+    color: white;
+}
+.codeRegional{
+    color: white;
+}
+.telephone{
+    color: white;
+}
+.codeRegional2{
+    color: white;
+}
+.numDeTelephone{
+    color: white;
+}
+.email{
+    color: white;
+}
+.adresse{
+    color: white;
+}
+.numdePorte{
+    color: white;
+}
+.numerodApparetement {
+    color: white;
+}
+
+.ville{
+    color: white;
+}
+.etatProvince{
+    color: white;
+}
+.codePostal{
+    color: white;
+}
+#deuxiemecCase {
+    background-color: #d49e65;
+}
+#body {
+    color: #d01212;
+}
+
+.rouge{
+    background-color:red;
+
+
+}
+.green{
+    background-color: green;
+
+}
+.bleu{
+    background-color: blue;
+
+}
+.Asterisque{
+    color: red;
+}
+.tiret{
+    color: white;
+}
+
+.identification{
+    color: white;
+}
 .fondRouge{
     background-color: red;
     height: 100px;
@@ -45,18 +142,10 @@
     height: 100px;
 }
 
-/* Sous menu */
-.sousmenu{
-    display: none;
-    box-shadow: 0px 1px 2px #ccc;
-}
-nav > ul li:hover .sousmenu{
-    display: block;
-}
 
-/* fin Sous menu */
 h1{
     color: #f11555;
+    text-align: left;
 }
 h2{
     color: white;
@@ -110,6 +199,9 @@ img:hover {
 #partie7 {
     padding: 7rem;
     background-color: #b2e5bd;
+    background-image: url("../img/Monseigneur2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 #Messenger{
     background-color: #9fcdff;

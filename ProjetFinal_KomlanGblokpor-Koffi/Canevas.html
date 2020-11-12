@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="canvas"> 
+    <canvas id="myCanvas" width="60" height="60" style="border:1px solid #0000;"></canvas>  
+    <script> 
+        var canvas = document.getElementById("myCanvas"); 
+        var ctx = canvas.getContext ("2d");  
+        //créer couleur de remplissage 
+         ctx.fillStyle = "#67737a"; 
+         ctx.fillRect(0,0,60,60);  
+        créer line droite 
+        ctx.moveTo (0,30); 
+        ctx.lineTo (30,0); 
+        ctx.stroke();      
+        <div id="canvas"> 
+         <canvas id="myCanvas" width="60" height="60" style="border:1px solid #0000;"></canvas>  
+         <script>                     var canvas = document.getElementById("myCanvas"); 
+         var ctx = canvas.getContext ("2d");  
+        // créer couleur de remplissage                     ctx.fillStyle = "#67737a"; 
+        ctx.fillRect(0,0,60,60); //créer line droite 
+         ctx.moveTo (0,30); 
+        ctx.lineTo (30,0); 
+        ctx.stroke();  
+//    </script> 
+</div>
+</body>
+</html>

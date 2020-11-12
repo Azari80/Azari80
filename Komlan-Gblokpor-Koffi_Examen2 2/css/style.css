@@ -1,0 +1,114 @@
+
+/* style.css */
+/* Par Komlan Albert Gblokpor-Koffi*/
+/*Le 25/10/2020 */
+
+@font-face {
+    font-family: maPolice;
+    src: url("/font/lucida_Consol.TTF");
+}
+
+#backgroundColor{
+    background-color: #0d0d10;
+}
+
+#formulaire{
+    padding: 7rem;
+    background-color: #333831;
+}
+
+h1{
+    color: white;
+}
+h5{
+    color: white;
+}
+p{
+    color: white;
+}
+hr{
+    border-color: white;
+}
+.nom{
+    color: white;
+}
+.prenom{
+    color: white;
+}
+.dateNaissance{
+    color: white;
+}
+.codeRegional{
+    color: white;
+}
+.telephone{
+    color: white;
+}
+.codeRegional2{
+    color: white;
+}
+.numDeTelephone{
+    color: white;
+}
+.email{
+    color: white;
+}
+.adresse{
+    color: white;
+}
+.numdePorte{
+    color: white;
+}
+.numerodApparetement {
+    color: white;
+}
+
+.ville{
+    color: white;
+}
+.etatProvince{
+    color: white;
+}
+.codePostal{
+    color: white;
+}
+#deuxiemecCase {
+    background-color: #d49e65;
+}
+#body {
+    color: #d01212;
+}
+
+.rouge{
+    background-color:red;
+
+
+}
+.green{
+    background-color: green;
+
+}
+.bleu{
+    background-color: blue;
+
+}
+.Asterisque{
+    color: red;
+}
+.tiret{
+    color: white;
+}
+
+.Destination{
+    font-family:Lucida Console, Monaco, monospace;
+   // font-family: maPolice;
+    font-size: 60px;
+    color: white;
+    text-align: left;
+}
+.paypal{
+    width: 50px;
+    height: 50px;
+
+
+}
