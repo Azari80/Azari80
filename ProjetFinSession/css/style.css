@@ -1,0 +1,169 @@
+
+/* style.css */
+/* Par Komlan Albert Gblokpor-Koffi*/
+/*Le 17/07/2020 */
+.parallax{
+    /* L’image du Parallax */
+    background-image: url("../img/evequepeupleDieu.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    /* L’image du Parallax*/
+    background-image: url("../img/seminariste.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondRouge{
+    background-color: red;
+    height: 100px;
+}
+.fondBleu{
+    background-color: blue;
+    height: 100px;
+
+}
+
+.fondVert{
+    background-color: #87ff5d;
+    height: 100px;
+}
+.fondJaune{
+    background-color: yellow;
+    height: 100px;
+
+}
+.fondBlanc{
+    background-color: white;
+    height: 100px;
+}
+
+/* Sous menu */
+.sousmenu{
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+}
+nav > ul li:hover .sousmenu{
+    display: block;
+}
+
+/* fin Sous menu */
+h1{
+    color: #f11555;
+}
+h2{
+    color: white;
+}
+p{
+    color: grey;
+}
+i{
+    color: #f05f40;
+}
+.fas, .fa-bars{
+    color: rgb(6, 128, 37);
+    background-color: #e6e8f1;
+}
+
+img{
+    width: 100%;
+}
+
+#banniere{
+    padding: 20rem;
+    background-image: url("../img/Banniere.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+img:hover {
+    box-shadow:20px 20px 5px 1px #7aa780;
+}
+#SectionActualite{
+    background-color: #b2e5bd;
+}
+#SectionPresbyterium{
+    background-color: #b2e5bd;
+}
+#SectionEveque{
+    background-color: #b2e5bd;
+}
+
+#partie4 {
+    background-color: #34ce57;
+    padding: 4rem;
+}
+.partie5{
+    background-color: #9fcdff;
+    padding: 6rem;
+}
+#partie6{
+    padding: 10rem;
+    background-color: #9fcdff;
+}
+#partie7 {
+    padding: 7rem;
+    background-color: #b2e5bd;
+}
+#Messenger{
+    background-color: #9fcdff;
+    padding: 6rem;
+}
+
+#consultation{
+    padding: 5rem;
+    background-color: green;
+}
+
+#separation2{
+    border-color: white;
+}
+#separation3{
+    border-color: white;
+}
+#Actualites{
+    padding-top: 2rem;
+}
+
+bg::after {
+    content: "";
+    background-image: url("../img/VieuxQuebec.JPG");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Pour les tablettes */
+@media screen and (min-width: 481px) and (max-width: 1199px){
+    #partie2{
+        background-image: url("../img/kpalime3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom:20rem;
+        padding-top: 20rem;
+        position: relative;
+    }
+}
+/* Pour les cellulaires */
+@media screen and (max-width: 480px){
+    #partie2{
+        background-image: url("../img/kpalime2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom: 20rem;
+        padding-top: 20rem;
+        position: relative;
+    }
+}
