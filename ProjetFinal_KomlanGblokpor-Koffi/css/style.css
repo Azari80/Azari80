@@ -1,7 +1,35 @@
 
 /* style.css */
 /* Par Komlan Albert Gblokpor-Koffi*/
-/*Le 17/07/2020 */
+/*Le 12/11/2020 */
+
+/* ici commence le code de la gallerie */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg{
+    fill: #fff;
+    width: 70%;
+}
+
+
+/* ici prend fin le code de la gallerie */
+
+
+
+
+
+
+
+
+
 
 .container{
     width: 100vw;
