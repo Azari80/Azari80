@@ -6,15 +6,6 @@ Dernière modification : 12-11-2020
 */
 
 
-anime({
-    targets: '.motion-path-demo .el',
-    translateX: path('x'),
-    translateY: path('y'),
-    rotate: path('angle'),
-    easing: 'linear',
-    duration: 2000,
-    loop: true
-});
 
 
 new Vue({
