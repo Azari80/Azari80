@@ -1,49 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<!--
+galleries.html
+Komlan Albert Gblokpor-Koffi
+Dernière modification : 11-11-2020
+-->
 
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Diocese de Kpalimé</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="icon" type="image/png" href="img/logo.jpg" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="anime-master/lib/anime.min.js"></script>
 
 </head>
-<body>
-<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
-<div id="captioned-gallery">
-    <figure class="slider">
-        <figure>
-            <img src="img/Monseigneur.jpg" alt>
-            <figcaption>Hobbiton, New Zealand</figcaption>
-        </figure>
-        <figure>
-            <img src="img/Jubile_Argent_Diocèse_Kpalime28.jpg" alt>
-            <figcaption>Wanaka, New Zealand</figcaption>
-        </figure>
-        <figure>
-            <img src="img/Jubile_Argent_Diocèse_Kpalime31.jpg" alt>
-            <figcaption>Utah, United States</figcaption>
-        </figure>
-        <figure>
-            <img src="img/Jubile_Argent_Diocese_Kpalime34.jpg" alt>
-            <figcaption>Bryce Canyon, Utah, United States</figcaption>
-        </figure>
-        <figure>
-            <img src="img/Jubile_Argent_Diocèse_Kpalime33.jpg" alt>
-            <figcaption>Hobbiton, New Zealand</figcaption>
-        </figure>
-    </figure>
-</div>
+<header>
 
-<!--
-<a href="index.html">Back to home page</a>
-<h1>Foto gallerie</h1>
+</header>
+    <nav class="navbar navbar-light bg-light navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/cat.png"/>
+        </button>
 
-<img src="img/Jubile_Argent_Diocèse_Kpalime32.jpg">
-<img src="img/Jubile_Argent_Diocèse_Kpalime31.jpg">
-<img src="img/Jubile_Argent_Diocèse_Kpalime23.jpg">
-<img src="img/Jubile_Argent_Diocèse_Kpalime34.jpg">
--->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item  btn-outline-success">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item btn-outline-success">
+                    <a class="nav-link" href="faireUnDon.html">Sacrements </a>
+                </li>
+
+                <li class="nav-item btn-outline-success">
+                    <a class="nav-link" href="faireUnDon.html">Diocèse de Kpalimé</a>
+                </li>
+                <li class="nav-item active btn-outline-success">
+                    <a class="nav-link" href="galleries.html"> Galleries </a>
+                </li>
+                <li class="nav-item btn-outline-success">
+                    <a class="nav-link" href="FaireUnDon.html">Faire un don </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <body>
+    <!-- ici commence l'animation javascript-->
+    <ul class="slideshow">
+        <li><span>Image 01</span><div><h3>Diocese de kpalime en images </h3></div></li>
+        <li><span>Image 02</span></li>
+        <li><span>Image 03</span></li>
+        <li><span>Image 04</span></li>
+        <li><span>Image 05</span></li>
+        <li><span>Image 06</span></li>
+    </ul>
+    <div class="container">
+        <a href="index.html">Back to home page</a>
+        <header>
+            <h1>CSS3 <span> <a href="index.html">Retour sur la page d'accueil<a></span></h1>
+        </header>
+    </div>
+
+
+
 <!-- Giuseppe Milo
 <img src="img/Jubile_Argent_Diocèse_Kpalime24.jpg">
 <img src="img/Jubile_Argent_Diocèse_Kpalime25.jpg">
@@ -59,6 +84,48 @@
 All Photos Licensed Under Creative Commons 2.0
 https://creativecommons.org/licenses/by/2.0/legalcode
 -->
-<script src="js/script.js"></script>
-</body>
+
+
+    <div class="piedpage">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-lg-4 col-sm-10 logo">
+                    <img src="img/.jpg"/>
+                </div>
+                <div class="col-lg-5 col-sm-10 logo"></div>
+                <div class="col-lg-3 col-sm-10 ">
+                    <h2>Diocèse de Kpalimé</h2>
+                    <h5> EVECHE BP 83, Kpalimé - Togo Kpalimé</h5>
+                    <h5> Tel:  +228 24 41 03 45</h5>
+                    <h5> Courriel:admin@diocesedekpalime.tg</h5>
+                    <div class="row">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                            <img src="img/logo.png" alt="logo" id="piedPage"/>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                            <i class="fab fa-twitter-square" id="Tweeter"></i>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <i class="fab fa-facebook-square" id="facebook"></i>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <i class="fab fa-instagram" id="Instagram"></i>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                            <i class="fab fa-youtube-square" id="Youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <p class="piedpage">Diocèse de Kpalimé 2020 Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    </body>
 </html>

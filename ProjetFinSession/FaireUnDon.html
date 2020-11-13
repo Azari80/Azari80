@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--
+index.html
+Komlan Albert Gblokpor-Koffi
+Dernière modification : 11-11-2020
+-->
+
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Bienvenue dans le diocèse de Kpalimé</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="icon" type="image/png" href="img/logo.jpg" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<header>
+
+</header>
+<body>
+<nav class="navbar navbar-light bg-light navbar-expand-lg">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="img/cat.png"/>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item btn-outline-success">
+                <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item btn-outline-success">
+                <a class="nav-link" href="sacrements.html">Sacrements </a>
+            </li>
+
+            <li class="nav-item btn-outline-success">
+                <a class="nav-link" href="dioceseDeKpalime.html">Diocèse de Kpalimé</a>
+            </li>
+            <li class="nav-item btn-outline-success">
+                <a class="nav-link" href="galleries.html"> Galleries </a>
+            </li>
+            <li class="nav-item active btn-outline-success">
+                <a class="nav-link" href="faireUnDon.html">Faire un don </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<!--Ici prend fin la section menu déroulant -->
+
+<!--section bannière- -->
+<section id="section2">
+    <div class="container-fluid text-center parallax p-3" id="partie2">
+        <div class="row">
+            <div class="col-12 col-xl-6 offset-xl-3 text-center">
+
+            </div>
+        </div>
+    </div>
+</section>
+<div id="">
+
+    <div  class="container-fluid text-left"  >
+        <h3 id="don"> Je veux donner à ma paroisse  </h3>
+        <!--  Ici commence le formulaire pour les don en église -->
+        <div class="row" id="partie6" >
+            <div class="col-12 col-xl-6 offset-xl-1 mt-5 mb-5" id="formulaire" >
+
+                <h5> </h5> <br>  <hr id="ligne">
+                <form  name="monFormulaire" onsubmit="return validationFormulaire()" methode ="post">
+                    <div class="container-fluid">
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label for="nom">Identification <span class="Asterisque"> * </span></label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <input type="text" class="form-control" maxlength="40" id="nom" required >
+                                <label for="nom" class="nom">Nom</label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="prenom" maxlength="40" required>
+                                <label for="prenom" class="prenom" > Prénom </label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label class="codeRegional">Numéro de </label>  <br> <label class="telephone">téléphone <span class="Asterisque"> * </span></label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <input type="tel" class="form-control" id="phone"   placeholder="ex: 000"required>
+                                <label for="phone" class="codeRegional2">Code régional</label>
+
+                            </div>
+                            <span class="tiret"> - </span>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="numPhone"  pattern="[0-9]{3}-[0-9]{4}"  placeholder=" ex: 000-0000"required >
+                                <label for="numPhone" class="numDeTelephone"> Numéro de téléphone </label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label class="email"> E-mail<span class="Asterisque"> * </span></label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-9">
+                                <input type="email" class="form-control" id="email" placeholder=" moncourrie@moncourriel.com" required>
+                                <label for="phone" class="codeRegional2">moncourrie@moncourriel.com</label>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label class="adresse"> Adresse de facturation  <span class="Asterisque"> * </span></label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-9">
+                                <input type="number" class="form-control" id="numero" maxlength="10" required>
+                                <label for="numero" class="numdePorte"> Numéro de domicile </label>
+                            </div>
+                            <div class="form-group col-md-3">
+
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label> </label>  <br> <label> </label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" id="ville" maxlength="40"  required>
+                                <label for="ville" class="ville">Ville</label>
+                            </div>
+
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" id="province" maxlength="20" required >
+                                <label for="province" class="etatProvince"> État/Province </label>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label> </label>  <br> <label> </label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" id="codePostal" maxlength="8"  required>
+                                <label for="codePostal" class="codePostal">Code postal</label>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label>Sexe <span class="Asterisque"> * </span></label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-9">
+                                <select id="sexe" required >
+                                    <option value="vide"></option>
+                                    <option value="masculin">Masculin</option>
+                                    <option value="feminin">Feminin</option>
+                                </select>
+                                <label for="sexe"></label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label for="metier">Métier<span class="Asterisque"> * </span></label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-9">
+                                <input type="text" class="form-control" id="metier"  required>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <p>
+                                    <label for="messageArea"> Avez-vous des questions écrivez-nous !</label>
+                                </p>
+                            </div>
+                            <div class="form-group col-md-9">
+                                <textarea type="text"  class="form-control" id="messageArea"  rows="5"></textarea>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+
+                            </div>
+                            <div class="form-group col-md-9">
+                                <button type="submit" class="btn btn-light">Soumettre mon don </button>
+
+                            </div>
+                            <p> ou faire un don sécuritaire par internet par paypal (bouton en bas) </p>
+                            <div class="col-12 pt-3 text-right " >
+                                <script src="https://www.paypal.com/sdk/js?client-id=sb" class="paypal"></script>
+                                <script>paypal.Buttons().render('body');</script>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+    </div>
+
+
+    <div class="piedpage">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-lg-4 col-sm-10 logo">
+                    <img src="img/.jpg"/>
+                </div>
+                <div class="col-lg-5 col-sm-10 logo"></div>
+                <div class="col-lg-3 col-sm-10 ">
+                    <h2>Diocèse de Kpalimé</h2>
+                    <h5> EVECHE BP 83, Kpalimé - Togo Kpalimé</h5>
+                    <h5> Tel:  +228 24 41 03 45</h5>
+                    <h5> Courriel:admin@diocesedekpalime.tg</h5>
+                    <div class="row">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                            <img src="img/logo.png" alt="logo" id="piedPage"/>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                            <i class="fab fa-twitter-square" id="Tweeter"></i>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <i class="fab fa-facebook-square" id="facebook"></i>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                            <i class="fab fa-instagram" id="Instagram"></i>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                            <i class="fab fa-youtube-square" id="Youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <p class="piedpage">Diocèse de Kpalimé 2020 Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

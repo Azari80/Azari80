@@ -15,12 +15,28 @@ Dernière modification : 15-07-2020
     <link rel="icon" type="image/png" href="img/logo.jpg" />
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--ici le lien vers la deuxième librairie javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
 </head>
 <header>
 
 </header>
 
 <body>
+<section>
+    <input type="search" id="address-input" placeholder="Where are we going?" />
+
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
+    <script>
+        var placesAutocomplete = places({
+            appId: 'YOUR_PLACES_APP_ID',
+            apiKey: 'YOUR_PLACES_API_KEY',
+            container: document.querySelector('#address-input')
+        });
+    </script>
+
+</section>
+<section>
 <nav class="navbar navbar-light bg-light navbar-expand-lg">
     <a class="navbar-brand" href="index.html"><img src="img/logo.png"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +45,23 @@ Dernière modification : 15-07-2020
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item ">
+            <li class="nav-item  btn-outline-success">
                 <a class="nav-link" href="index.html">Accueil</a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="actualites.html">Actualités</a>
+            <li class="nav-item btn-outline-success">
+                <a class="nav-link" href="sacrements.html">Sacrements </a>
             </li>
+
+            <li class="nav-item  btn-outline-success">
+                <a class="nav-link" href="dioceseDeKpalime.html">Diocèse de Kpalimé</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="NousJoindre.html">Nous joindre</a>
+            <li class="nav-item active btn-outline-success">
+                <a class="nav-link" href="galleries.html"> Galleries </a>
             </li>
+            <li class="nav-item btn-outline-success">
+                <a class="nav-link" href="faireUnDon.html">Faire un don </a>
+            </li>
+
         </ul>
     </div>
 </nav>
@@ -234,7 +257,6 @@ Dernière modification : 15-07-2020
             </div>
         </div>
     </div>
-
 
 
     <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
