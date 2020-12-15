@@ -1,5 +1,5 @@
 /*
-Theme Name: Projet synthèse
+Theme Name: Mon projet synthèse finale
 Theme URI: http://diocesedekpalime.org
 Description: Mon projet syntèse sera le meilleur des projet. Il est super joli
 Author: Komlan Gblokpor-Koffi
@@ -300,7 +300,7 @@ img:hover {
 
 bg::after {
     content: "";
-    background-image: url("../img/VieuxQuebec.JPG");
+    background-image: url("../DioceseKpalime/img/VieuxQuebec.JPG");
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -313,7 +313,7 @@ bg::after {
 /* Pour les tablettes */
 @media screen and (min-width: 481px) and (max-width: 1199px){
     #partie2{
-        background-image: url("../img/kpalime3.jpg");
+        background-image: url("../DioceseKpalime/img/kpalime3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -325,7 +325,7 @@ bg::after {
 /* Pour les cellulaires */
 @media screen and (max-width: 480px){
     #partie2{
-        background-image: url("../img/kpalime2.jpg");
+        background-image: url("../DioceseKpalime/img/Kpalime2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
