@@ -1,0 +1,336 @@
+/*
+Theme Name: Projet synthèse
+Theme URI: http://diocesedekpalime.org
+Description: Mon projet syntèse sera le meilleur des projet. Il est super joli
+Author: Komlan Gblokpor-Koffi
+Author URI: http://www.author.com
+Version: 1.0
+Tags: responsive, black, white, columns, custom menu, etc.
+*/
+
+/* ==== Google font ==== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+@import url('<?php echo get_theme_file_uri()?>/font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('<?php echo get_theme_file_uri()?>/css/overwrite.css');
+@import url('<?php echo get_theme_file_uri()?>css/animate.css');
+
+
+.parallax{
+    /* L’image du Parallax */
+    background-image: url("<?php echo get_theme_file_uri()?>/img/evequepeupleDieu.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    /* L’image du Parallax*/
+    background-image: url("<?php echo get_theme_file_uri()?>/img/slideMontage.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paroleConsulteur{
+    color: white;
+}
+.footer {
+    background-color: #6ddb6a;
+    height: 302px;
+}
+
+.last-div {
+    background: #b2e5bd;
+    padding: 10px 0;
+    position: relative;
+
+}
+#last{
+    background: #1f2021;
+    padding: 20px 0;
+    position: relative;
+}
+.piedpage{
+    color: white;
+    text-align: right;
+
+}
+
+/*===========================
+  Page Mgr Alowonou
+============================ */
+.mgr{
+    color: #34ce57;
+}
+.blog {
+    padding-top:30px;
+    padding-bottom:50px;
+    background-color: #f2f8f1;
+}
+
+.fondRouge{
+    background-color: red;
+    height: 100px;
+}
+.fondBleu{
+    background-color: blue;
+    height: 100px;
+
+}
+
+.fondVert{
+    background-color: #87ff5d;
+    height: 100px;
+}
+.fondJaune{
+    background-color: yellow;
+    height: 100px;
+
+}
+.fondBlanc{
+    background-color: white;
+    height: 100px;
+}
+.widgetheading {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+}
+.f-about a h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #fff;
+
+}
+.f-about a h1 span {
+    color: #ED502E;
+}
+.f-about p {
+    font-size: 14px;
+    color: #e3e7ea;
+}
+
+
+.f-contact p {
+    font-size: 14px;
+    color: #eff0f3;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.f-contact i {
+    color: #56595f;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.f-contact a:hover p{
+    color: #fff;
+}
+.last-div {
+    background: #588d58;
+    padding: 20px 0;
+    position: relative;
+}
+.mapolice{
+    font-family: "helvetica neue", helvetica;
+}
+.copyright {
+    font-size: 20px;
+    color: #8a8d94;
+    margin: 0;
+
+    font-weight: 300;
+    float: left;
+}
+.copyright a{
+    color: #8a8d94;
+}
+.copyright a:hover {
+    text-decoration: underline;
+    color: #ED502E;
+}
+
+.foot-nav {
+    float: right;
+    margin-right:20px;
+}
+
+.foot-nav li {
+    display: inline;
+    margin-right:20px;
+}
+
+.foot-nav li:after {
+    content: "";
+    padding-left: 7px;
+    margin-right: 7px;
+}
+
+
+.foot-nav a {
+    font-size: 14px;
+    color: #8a8d94;
+    margin: 0;
+    font-weight: 300;
+}
+
+.foot-nav a:hover {
+    color: #ED502E;
+}
+
+a.scrollup{
+    color:#fff;
+    height:40px;
+    width:40px;
+    font-size:22px;
+    line-height:40px;
+    text-align:center;
+    text-decoration:none;
+    position:fixed;
+    bottom:20px;
+    right:40px;
+    opacity:0,5;
+    border-radius:50%;
+    z-index:999;
+}
+a.scrollup:hover{
+    opacity:1;
+    background-color:#ED502E;
+    color:#fff;;
+}
+
+
+/* Sous menu */
+.sousmenu{
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+}
+nav > ul li:hover .sousmenu{
+    display: block;
+}
+
+/* fin Sous menu */
+h1{
+    color: #f11555;
+}
+h2{
+    color: white;
+}
+p{
+    color: grey;
+}
+i{
+    color: #f05f40;
+}
+.fas, .fa-bars{
+    color: rgb(6, 128, 37);
+    background-color: #e6e8f1;
+}
+
+img{
+    width: 100%;
+}
+
+#banniere{
+    padding: 20rem;
+    background-image: url("<?php echo get_theme_file_uri()?>/img/Banniere.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+img:hover {
+    box-shadow:20px 20px 5px 1px #7aa780;
+}
+#SectionActualite{
+    background-color: #b2e5bd;
+}
+#SectionPresbyterium{
+    background-color: #b2e5bd;
+}
+#SectionEveque{
+    background-color: #b2e5bd;
+}
+#CoinEveque{
+    background-color: #b2e5bd;
+}
+
+#partie4 {
+    background-color: #34ce57;
+    padding: 4rem;
+}
+.partie5{
+    background-color: #9fcdff;
+    padding: 6rem;
+}
+#partie6{
+    padding: 10rem;
+    background-color: #9fcdff;
+}
+#partie7 {
+    padding: 7rem;
+    background-color: #b2e5bd;
+}
+#Messenger{
+    background-color: #9fcdff;
+    padding: 6rem;
+}
+
+#consultation{
+    padding: 5rem;
+    background-color: green;
+}
+
+#separation2{
+    border-color: white;
+}
+#separation3{
+    border-color: #ffffff;
+}
+#Actualites{
+    padding-top: 2rem;
+}
+
+bg::after {
+    content: "";
+    background-image: url("../img/VieuxQuebec.JPG");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Pour les tablettes */
+@media screen and (min-width: 481px) and (max-width: 1199px){
+    #partie2{
+        background-image: url("../img/kpalime3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom:20rem;
+        padding-top: 20rem;
+        position: relative;
+    }
+}
+/* Pour les cellulaires */
+@media screen and (max-width: 480px){
+    #partie2{
+        background-image: url("../img/kpalime2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-bottom: 20rem;
+        padding-top: 20rem;
+        position: relative;
+    }
+}
